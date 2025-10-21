@@ -10,7 +10,7 @@ uri = URI(url)
 body = Net::HTTP.get(uri)
 dictionary = body.split("\n").map(&:downcase).select { |w| w.length >= 4 }
 # Exclude element which are not strign
-dictionary = dictionary.select { |w| w.is_a?(String) }
+# dictionary = dictionary.select { |w| w.is_a?(String) }
 
 puts "Una parola a caso dal dizionario: #{dictionary.sample}"
 
