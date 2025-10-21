@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ruby vendor bundle directory
+./vendor/*
+.ruby-version
+
 # C extensions
 *.so
 
