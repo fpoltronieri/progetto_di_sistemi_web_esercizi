@@ -1,0 +1,6 @@
+<%= form_with model: [post, Comment.new] do |f| %>
+  <div>
+    <%= f.text_area :content, placeholder: "Add a comment..." %>
+    <%= f.submit "Post Comment" %>
+  </div>
+<% end %>

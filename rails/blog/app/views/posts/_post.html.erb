@@ -1,0 +1,17 @@
+<div id="<%= dom_id post %>">
+  <article>
+
+    <div>
+      <strong>Title:</strong>
+      <%= post.title %>
+    </div>
+
+    <div>
+      <strong>Body:</strong>
+      <%= post.body %>
+    </div>
+
+    <%= render "comments/comments", post: post %>
+
+  </article>
+</div>
