@@ -6,6 +6,10 @@ Repository del corso di Progetto di Sistemi Web. Questo repository contiene gli 
 
 ## AA 2025/2026
 
+## Filippo Poltronieri
+
+## Edoardo Di Caro
+
 ### Checkout Repository
 
 ```
