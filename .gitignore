@@ -6,6 +6,7 @@ __pycache__/
 # Ruby vendor bundle directory
 ./vendor/*
 .ruby-version
+*/vendor/*
 
 # C extensions
 *.so
