@@ -1,0 +1,20 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+/Users/filippopoltronieri/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-nfcih0 sitelibdir\=./.gem.20251030-78329-nfcih0 clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-nfcih0 sitelibdir\=./.gem.20251030-78329-nfcih0
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-nfcih0 sitelibdir\=./.gem.20251030-78329-nfcih0 install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251030-78329-nfcih0/debug
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-nfcih0 sitelibdir\=./.gem.20251030-78329-nfcih0 clean

@@ -1,0 +1,13 @@
+<div class="casting">
+  <strong><%= casting.actor.name %></strong>
+  as
+  <em><%= casting.character %></em>
+  ·
+  <%= link_to "Edit", edit_casting_path(casting) %>
+  <%= link_to "Remove",
+  casting_path(casting),
+  data: {
+    turbo_method: :delete,
+    turbo_confirm: "Remove this cast member?",
+  } %>
+</div>

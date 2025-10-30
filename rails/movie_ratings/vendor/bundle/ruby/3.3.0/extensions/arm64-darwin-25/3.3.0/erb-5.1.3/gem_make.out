@@ -1,0 +1,19 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+/Users/filippopoltronieri/.rbenv/versions/3.3.9/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-qhqg4z sitelibdir\=./.gem.20251030-73306-qhqg4z clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-qhqg4z sitelibdir\=./.gem.20251030-73306-qhqg4z
+compiling escape.c
+linking shared-object erb/escape.bundle
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-qhqg4z sitelibdir\=./.gem.20251030-73306-qhqg4z install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20251030-73306-qhqg4z/erb
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-qhqg4z sitelibdir\=./.gem.20251030-73306-qhqg4z clean

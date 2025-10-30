@@ -1,0 +1,31 @@
+<article id="<%= dom_id movie %>">
+  <div>
+    <strong>Title:</strong>
+    <%= movie.title %>
+  </div>
+
+  <div>
+    <strong>Director:</strong>
+    <%= movie.director %>
+  </div>
+
+  <div>
+    <strong>Duration:</strong>
+    <%= movie.duration %>
+  </div>
+
+  <div>
+    <strong>Plot:</strong>
+    <%= movie.plot %>
+  </div>
+
+  <div>
+    <strong>Location:</strong>
+    <%= movie.location %>
+  </div>
+
+  <h3>Castings</h3>
+  <%= render movie.castings if movie.castings %>
+  <%= render "castings/form", movie: movie %>
+
+</article>

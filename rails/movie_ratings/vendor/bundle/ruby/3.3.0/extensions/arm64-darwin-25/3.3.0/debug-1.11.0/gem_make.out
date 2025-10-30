@@ -1,0 +1,19 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+/Users/filippopoltronieri/.rbenv/versions/3.3.9/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-jsozy4 sitelibdir\=./.gem.20251030-73306-jsozy4 clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-jsozy4 sitelibdir\=./.gem.20251030-73306-jsozy4
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-jsozy4 sitelibdir\=./.gem.20251030-73306-jsozy4 install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251030-73306-jsozy4/debug
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-jsozy4 sitelibdir\=./.gem.20251030-73306-jsozy4 clean

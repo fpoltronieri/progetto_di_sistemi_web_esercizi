@@ -1,0 +1,43 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/puma-7.1.0/ext/puma_http11
+/Users/filippopoltronieri/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+checking for BIO_read() in -llibcrypto... no
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+
+──── Below are yes for 1.0.2 & later ────
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+
+──── Below are yes for 1.1.0 & later ────
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.0 and later, but isn't documented until 3.0.0 ────
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.1 & later ────
+checking for SSL_CTX_set_ciphersuites(NULL, "") in openssl/ssl.h... yes
+
+──── Below is yes for 3.0.0 & later ────
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/puma-7.1.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-jo9tpg sitelibdir\=./.gem.20251030-78329-jo9tpg clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/puma-7.1.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-jo9tpg sitelibdir\=./.gem.20251030-78329-jo9tpg
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/puma-7.1.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-jo9tpg sitelibdir\=./.gem.20251030-78329-jo9tpg install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20251030-78329-jo9tpg/puma
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/puma-7.1.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-jo9tpg sitelibdir\=./.gem.20251030-78329-jo9tpg clean

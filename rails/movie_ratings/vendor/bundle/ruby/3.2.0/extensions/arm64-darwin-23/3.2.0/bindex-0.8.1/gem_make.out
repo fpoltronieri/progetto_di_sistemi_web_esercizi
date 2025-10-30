@@ -1,0 +1,19 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/filippopoltronieri/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-2ik2xp sitelibdir\=./.gem.20251030-78329-2ik2xp clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-2ik2xp sitelibdir\=./.gem.20251030-78329-2ik2xp
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-2ik2xp sitelibdir\=./.gem.20251030-78329-2ik2xp install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20251030-78329-2ik2xp/skiptrace/internal
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-2ik2xp sitelibdir\=./.gem.20251030-78329-2ik2xp clean

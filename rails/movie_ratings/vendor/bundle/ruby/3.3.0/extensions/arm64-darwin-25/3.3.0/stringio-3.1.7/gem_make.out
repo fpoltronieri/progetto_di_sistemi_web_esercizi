@@ -1,0 +1,19 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+/Users/filippopoltronieri/.rbenv/versions/3.3.9/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-hb04pr sitelibdir\=./.gem.20251030-73306-hb04pr clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-hb04pr sitelibdir\=./.gem.20251030-73306-hb04pr
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-hb04pr sitelibdir\=./.gem.20251030-73306-hb04pr install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20251030-73306-hb04pr
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251030-73306-hb04pr sitelibdir\=./.gem.20251030-73306-hb04pr clean

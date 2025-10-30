@@ -1,0 +1,45 @@
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext/prism
+/Users/filippopoltronieri/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+checking for prism.h in /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/include... yes
+checking for prism/extension.h in /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext... yes
+checking for whether -fvisibility=hidden is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-17je1h sitelibdir\=./.gem.20251030-78329-17je1h clean
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-17je1h sitelibdir\=./.gem.20251030-78329-17je1h
+compiling api_node.c
+compiling api_pack.c
+compiling extension.c
+compiling ./../../src/diagnostic.c
+compiling ./../../src/encoding.c
+compiling ./../../src/node.c
+compiling ./../../src/options.c
+compiling ./../../src/pack.c
+compiling ./../../src/prettyprint.c
+compiling ./../../src/prism.c
+compiling ./../../src/regexp.c
+compiling ./../../src/serialize.c
+compiling ./../../src/static_literals.c
+compiling ./../../src/token_type.c
+compiling ./../../src/util/pm_buffer.c
+compiling ./../../src/util/pm_char.c
+compiling ./../../src/util/pm_constant_pool.c
+compiling ./../../src/util/pm_integer.c
+compiling ./../../src/util/pm_list.c
+compiling ./../../src/util/pm_memchr.c
+compiling ./../../src/util/pm_newline_list.c
+compiling ./../../src/util/pm_string.c
+compiling ./../../src/util/pm_strncasecmp.c
+compiling ./../../src/util/pm_strpbrk.c
+linking shared-object prism/prism.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-17je1h sitelibdir\=./.gem.20251030-78329-17je1h install
+/usr/bin/install -c -m 0755 prism.bundle ./.gem.20251030-78329-17je1h/prism
+
+current directory: /Users/filippopoltronieri/progetto_di_sistemi_web_esercizi/rails/movie_ratings/vendor/bundle/ruby/3.2.0/gems/prism-1.6.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20251030-78329-17je1h sitelibdir\=./.gem.20251030-78329-17je1h clean
