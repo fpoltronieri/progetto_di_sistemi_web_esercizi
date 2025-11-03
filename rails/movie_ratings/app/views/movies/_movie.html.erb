@@ -5,6 +5,10 @@
   </div>
 
   <div>
+    <%= image_tag movie.poster if movie.poster.attached? %>
+  </div>
+
+  <div>
     <strong>Director:</strong>
     <%= movie.director %>
   </div>

@@ -1,7 +1,8 @@
 <%= form_with(model: actor) do |form| %>
   <% if actor.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(actor.errors.count, "error") %> prohibited this actor from being saved:</h2>
+      <h2><%= pluralize(actor.errors.count, "error") %>
+        prohibited this actor from being saved:</h2>
 
       <ul>
         <% actor.errors.each do |error| %>
@@ -19,6 +20,11 @@
   <div>
     <%= form.label :dob, style: "display: block" %>
     <%= form.date_field :dob %>
+  </div>
+
+  <div>
+    <%= form.label :photo, style: "display: block" %>
+    <%= form.file_field :photo, accept: "image/*" %>
   </div>
 
   <div>

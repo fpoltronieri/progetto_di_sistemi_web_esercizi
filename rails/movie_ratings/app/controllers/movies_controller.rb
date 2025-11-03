@@ -1,5 +1,7 @@
 class MoviesController < ApplicationController
   before_action :set_movie, only: %i[ show edit update destroy ]
+  # allow_unathenticated only: %i[index show]
+  # allow_authenticated only: %i[new create edit update destroy]
 
   # GET /movies or /movies.json
   def index
@@ -65,6 +67,6 @@ class MoviesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def movie_params
-      params.expect(movie: [ :title, :director, :duration, :plot, :location ])
+      params.expect(movie: [ :title, :director, :duration, :plot, :location, :poster ])
     end
 end

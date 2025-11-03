@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :reviews
+  resource :session
+  resources :passwords, param: :token
   resources :castings
   resources :movies do 
         resources :castings, only: [:new, :create, :update, :edit, :destroy]

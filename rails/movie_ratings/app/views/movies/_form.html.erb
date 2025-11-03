@@ -1,7 +1,8 @@
 <%= form_with(model: movie) do |form| %>
   <% if movie.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+      <h2><%= pluralize(movie.errors.count, "error") %>
+        prohibited this movie from being saved:</h2>
 
       <ul>
         <% movie.errors.each do |error| %>
@@ -28,12 +29,17 @@
 
   <div>
     <%= form.label :plot, style: "display: block" %>
-    <%= form.textarea :plot %>
+    <%= form.rich_textarea :plot %>
   </div>
 
   <div>
     <%= form.label :location, style: "display: block" %>
     <%= form.text_field :location %>
+  </div>
+
+  <div>
+    <%= form.label :poster, style: "display: block" %>
+    <%= form.file_field :poster, accept: "image/*" %>
   </div>
 
   <div>

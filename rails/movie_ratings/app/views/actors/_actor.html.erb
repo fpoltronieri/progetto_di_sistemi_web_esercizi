@@ -9,4 +9,8 @@
     <%= actor.dob %>
   </div>
 
+  <div>
+    <%= image_tag actor.photo if actor.photo.attached? %>
+  </div>
+
 </div>

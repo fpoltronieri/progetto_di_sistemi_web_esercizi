@@ -28,6 +28,7 @@
     <header>
       <h1>Movie Ratings</h1>
       <p>Progetto di Sistemi Web</p>
+      <p><%= Current.user.email_address if authenticated? %></p>
       <nav>
         <ul>
           <li><%= link_to "Movies", movies_path %></li>
