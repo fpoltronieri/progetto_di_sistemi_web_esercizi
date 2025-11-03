@@ -7,6 +7,8 @@ __pycache__/
 ./vendor/*
 .ruby-version
 */vendor/*
+vendor/
+tmp/ 
 
 # C extensions
 *.so
