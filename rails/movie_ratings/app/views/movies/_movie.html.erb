@@ -5,7 +5,9 @@
   </div>
 
   <div>
-    <%= image_tag movie.poster if movie.poster.attached? %>
+    <%= if movie.poster.attached?
+      image_tag movie.poster.variant(resize_to_fit: [400, 600])
+    end %>
   </div>
 
   <div>
@@ -31,5 +33,14 @@
   <h3>Castings</h3>
   <%= render movie.castings if movie.castings %>
   <%= render "castings/form", movie: movie %>
+
+  <h3>Reviews</h3>
+  <% if movie.reviews.length > 0 %>
+    <h4>Average Rating:
+      <%= movie.average_rating %>/10
+    </h4>
+  <% end %>
+  <%= render movie.reviews if movie.reviews.any? %>
+  <%= render "reviews/form", movie: movie %>
 
 </article>

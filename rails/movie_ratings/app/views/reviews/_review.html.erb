@@ -1,0 +1,19 @@
+<div id="<%= dom_id review %>">
+  <div><strong>
+      <%= review.user.username %>
+    </strong></div>
+
+  <div>
+    <strong>Rating:</strong>
+    <%= review.rating %>/10
+  </div>
+
+  <div>
+    <strong>Content:</strong>
+    <%= review.content %>
+  </div>
+  <div>
+    <%= time_tag review.updated_at, "data-local": "time-ago" %>
+  </div>
+  <br>
+</div>

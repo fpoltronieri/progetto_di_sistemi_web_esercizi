@@ -29,14 +29,18 @@
       <h1>Movie Ratings</h1>
       <p>Progetto di Sistemi Web</p>
       <p><%= Current.user.email_address if authenticated? %></p>
+      <%= link_to "Sign Out", session_path, method: :delete if authenticated? %>
       <nav>
         <ul>
           <li><%= link_to "Movies", movies_path %></li>
         </ul>
       </nav>
-      <%= yield %>
-      <footer>
-        <p>&copy; <%= Time.current.year %> Movie Ratings</p>
-        </footer>
+    </header>
+    <%= yield %>
+    <footer>
+      <p>&copy;
+        <%= Time.current.year %>
+        Movie Ratings</p>
+    </footer>
   </body>
 </html>

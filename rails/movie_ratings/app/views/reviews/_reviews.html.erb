@@ -1,0 +1,5 @@
+<div id="reviews">
+  <%= render movie.reviews if movie.reviews.any? %>
+</div>
+
+<%= render "reviews/form", movie: movie %>

@@ -1,0 +1,6 @@
+<%= form_with model: [movie, Review.new] do |form| %>
+  Write a review:
+  <%= form.rich_text_area :content %><br>
+  <%= form.number_field :rating, in: 1..10, placeholder: "(1-10)" %><br>
+  <%= form.submit "Submit Review" %>
+<% end %>
