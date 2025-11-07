@@ -1,5 +1,5 @@
 class CastingsController < ApplicationController
-  before_action :set_movie, only: %i[ show new create edit update]
+  before_action :set_movie, only: %i[ show new create]
   before_action :set_casting, only: %i[ show edit update destroy ]
 
   def show
@@ -18,13 +18,16 @@ class CastingsController < ApplicationController
     end
   end
 
-  def edit
+  def edit 
+    #@casting = Casting.find(params[:id])
+    @movie = @casting.movie
   end
+
 
   def update
     @casting.update(casting_params)
     respond_to do |format|
-      format turbo_stream
+      format.html { redirect_to @casting.movie, notice: "Casting was successfully updated." }
     end
   end
       #redirect_to @casting.movie, notice: "Casting was successfully updated."

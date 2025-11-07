@@ -1,0 +1,13 @@
+<%= form_with model: @review, local: true do |form| %>
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.rich_text_area :content %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rating %>
+    <%= form.number_field :rating, in: 1..10 %>
+  </div>
+
+  <%= form.submit "Update Review" %>
+<% end %>

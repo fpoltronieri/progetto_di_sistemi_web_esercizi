@@ -17,3 +17,12 @@
   </div>
   <br>
 </div>
+<% if review.user == Current.user %>
+  <%= link_to "Edit", edit_review_path(review) %>
+  <%= link_to "Remove",
+  movie_review_path(review.movie, review),
+  data: {
+    turbo_method: :delete,
+    turbo_confirm: "Remove this review?",
+  } %>
+<% end %>

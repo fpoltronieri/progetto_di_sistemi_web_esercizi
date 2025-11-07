@@ -1,5 +1,29 @@
 class ReviewsController < ApplicationController
-  before_action :set_movie
+  before_action :set_movie, only: %i[index show create]
+
+  def index 
+    @reviews = @movie.reviews
+  end 
+
+  def show
+    @review = @movie.reviews.find(params[:id])
+  end
+
+  def edit
+    # id di review lo prendo da params[:id]
+    @review = Review.find(params[:id])
+    @movie = @review.movie
+  end
+
+  def update
+    @review = Review.find(params[:id])
+    # id di review lo prendo da params[:id]
+    if @review.update(review_params)
+      redirect_to movie_path(@review.movie), notice: "Review was successfully updated."
+    else 
+      redirect_to edit_movie_review_path(@review.movie, @review), alert: @review.errors.full_messages.to_sentence
+    end
+  end
 
   def create
     @review = @movie.reviews.new(review_params)

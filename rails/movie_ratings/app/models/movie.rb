@@ -3,7 +3,9 @@ class Movie < ApplicationRecord
   has_many :actors, through: :castings
   has_one_attached :poster
   has_rich_text :plot
+  # Aggiungere l'association con reviews
   has_many :reviews, dependent: :destroy
+
   validates :title, presence: true, length: { minimum: 2, maximum: 100 }
   validates :director, presence: true, length: { minimum: 2, maximum: 100 }
   validates :duration, presence: true, numericality: { only_integer: true, greater_than: 0 }
